@@ -8,7 +8,7 @@ module.exports = {
 
         client.user.setPresence({
             activities: [
-                {name: 'Καφενείο Έρος☕', type: ActivityType.Streaming}
+                {name: 'Whatever you want', type: ActivityType.Streaming}
             ],
         })
     }
