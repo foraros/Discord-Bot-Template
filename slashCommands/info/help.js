@@ -6,7 +6,7 @@ const moment = require('moment')
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('bot-info')
+		.setName('help')
 		.setDescription("Returns bot's information"),
   
 	  async execute(interaction) {

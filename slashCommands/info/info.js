@@ -7,7 +7,7 @@ const { version: djsVersion } = require('discord.js');
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('bot-info')
+		.setName('info')
 		.setDescription("Returns bot's information"),
   
 	async execute(interaction) {
